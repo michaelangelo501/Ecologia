@@ -9,41 +9,92 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-success" data-bs-theme="dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Ecología</a>
+      <a class="navbar-brand" href="#" style="font-size: 40px;">Ecología</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="d-flex" id="navbarColor01">
         <ul class="navbar-nav me-auto">
           <li class="nav-item me-4">
-            <a class="nav-link active" href="/home">Home
+            <a class="nav-link active" href="/home" style="font-size: 15px;">Home
               <span class="visually-hidden">(current)</span>
             </a>
           </li>
           <li class="nav-item me-4">
-            <a class="nav-link" href="/berrendo">Berrendo</a>
+            <a class="nav-link" href="/berrendo" style="font-size: 15px;">Berrendo</a>
           </li>
           <li class="nav-item me-4">
-            <a class="nav-link" href="/borrego">Borrego</a>
+            <a class="nav-link" href="/borrego" style="font-size: 15px;">Borrego</a>
           </li>
           <li class="nav-item me-4">
-            <a class="nav-link" href="/venado">Venado</a>
+            <a class="nav-link" href="/venado" style="font-size: 15px;">Venado</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <div class="video m-3" style="text-align: center;">
-    <div class="text-tiitle">
-      <h1 class="titulo">Bienvenidos</h1>
+  <div class="video-conteiner">
+    <div class="video" style="text-align: center;">
+      <div class="text-tiitle">
+        <h1 class="titulo">Bienvenidos</h1>
+      </div>
+       <video autoplay loop muted id="video-background">
+         <source src="videos/video.mp4">
+       </video>
+       <div class="text-overlay">
+        <button id="boton1" type="button" class="btn btn-info">Saber más</button>
+       </div>
     </div>
-     <video autoplay loop muted id="video-background">
-       <source src="videos/video.mp4">
-     </video>
-     <div class="text-overlay">
-      <button id="boton1" type="button" class="btn btn-info">Saber más</button>
-     </div>
   </div>
+  <div class="container p-5">
+    <div class="card text-white bg-primary mb-3" style="max-width: 70rem;">
+      <div class="card-header">Ecología</div>
+      <div class="card-body">
+        <h4 class="card-title">¿Que es Ecología?</h4>
+        <p id="texto1" class="card-text">La <strong>ecología</strong> es una rama de la biología que estudia las relaciones entre los organismos vivos y su entorno, así como las interacciones que tienen lugar entre ellos. Su objetivo principal es comprender cómo los seres vivos, incluidos los humanos, se relacionan con otros organismos y con los factores físicos y químicos de su ambiente.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-section">
+    <h1 class="article-title text-center"> <strong>¿Por qué es importante la ecología?</strong></h1>
+    <div class="grid-container">
+      <div class="card">
+        <h2>1. Mantener el equilibrio de los ecosistemas</h2>
+        <p><strong>Interconexión de la vida:</strong> La ecología estudia cómo los organismos interactúan entre sí y con su entorno. Estas relaciones son esenciales para el equilibrio de los ecosistemas, donde cada especie cumple un papel único.</p>
+        <p><strong>Servicios ecosistémicos:</strong> Los ecosistemas nos proporcionan recursos vitales como agua potable, aire limpio, alimentos, medicinas y materiales.</p>
+      </div>
+      <div class="card">
+        <h2> 2. Conservación de la biodiversidad</h2>
+        <p><strong>Protección de especies:</strong> Entender las interacciones ecológicas ayuda a evitar la extinción de especies y a conservar la diversidad de la vida en la Tierra.</p>
+        <p><strong>Impacto en la humanidad:</strong> La desaparición de especies afecta directamente a la agricultura, la medicina y los ecosistemas de los que dependemos.</p>
+      </div>
+      <div class="card">
+        <h2>3. Respuesta al cambio climático</h2>
+        <p><strong>Efectos en los ecosistemas:</strong> La ecología ayuda a predecir cómo el cambio climático afecta a los ecosistemas, como el aumento del nivel del mar, los cambios en los patrones climáticos y la pérdida de hábitats.</p>
+        <p><strong>Soluciones sostenibles:</strong> Facilita el desarrollo de estrategias para mitigar los efectos del cambio climático, como la restauración de ecosistemas degradados.</p>
+      </div>
+      <div class="card">
+        <h2>4. Uso sostenible de recursos naturales</h2>
+        <p><strong>Evitar el agotamiento:</strong> Estudiar la ecología permite manejar los recursos naturales de manera sostenible, evitando la sobreexplotación de bosques, océanos y suelos.</p>
+        <p><strong>Desarrollo sostenible:</strong> Promueve prácticas que equilibren el crecimiento económico, el bienestar humano y la conservación del medio ambiente.</p>
+      </div>
+      <div class="card">
+        <h2>5. Salud humana y ambiental</h2>
+        <p><strong>Calidad de vida:</strong> Un ambiente sano es crucial para nuestra salud. La ecología muestra cómo la contaminación, la pérdida de hábitats y los desequilibrios ecológicos afectan la salud humana.</p>
+        <p><strong>Prevención de enfermedades:</strong> Entender los ecosistemas ayuda a controlar enfermedades zoonóticas (transmitidas de animales a humanos) y evitar pandemias.</p>
+      </div>
+      <div class="card">
+        <h2>6. Educación y conciencia ambiental</h2>
+        <p><strong>Comprender nuestro impacto:</strong> La ecología enseña cómo nuestras acciones afectan al planeta, lo que fomenta la responsabilidad ambiental.</p>
+        <p><strong>Inspirar cambio:</strong> Promueve hábitos y políticas más respetuosas con el medio ambiente.</p>
+      </div>
+      <div class="card">
+        <h2>7. Garantizar la supervivencia a largo plazo</h2>
+        <p>La vida humana depende completamente de la estabilidad de los ecosistemas. Protegerlos a través de un enfoque ecológico es clave para nuestra supervivencia y la de futuras generaciones.</p>
+      </div>
+    </div>
+  </div>
+  
 </body>
 </html>
 
