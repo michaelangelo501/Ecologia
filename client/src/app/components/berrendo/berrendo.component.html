@@ -1,1 +1,250 @@
-<p>berrendo works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berrendo</title>
+    <link rel="stylesheet" href="berrendo.component.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-success" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="font-size: 40px;">Ecología</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="d-flex" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item me-4">
+                <a class="nav-link"  href="#"style="font-size: 15px;">Home
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link" href="/berrendo" style="font-size: 15px;">Berrendo</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link" href="/borrego" style="font-size: 15px;">Borrego</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link" href="/venado" style="font-size: 15px;">Venado</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <table>
+      <tr>
+      <td class="FotoContenedor">
+          <img class="Foto" src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Antilocapra_americana.jpg" alt="Foto de un Berrendo">
+      </td>
+      <td class="Texto">
+      <h1 class="FotoTitulo">Berrendo</h1>
+      <h3 class="FotoSubtitulo">Antilocapra americana</h3>
+      <h4>El berrendo (Antilocapra americana), conocido también como antílope americano, es un mamífero artiodáctilo único en su tipo, ya que pertenece a la familia Antilocapridae, que no tiene parientes vivos cercanos. Es uno de los corredores más veloces del continente americano, alcanzando velocidades de hasta 90 km/h. En México, es una especie que ha enfrentado serios problemas de conservación debido a la pérdida de hábitat, lo que la ha llevado al borde de la extinción en algunas regiones. 
+      </h4>
+      </td>
+      </tr>
+    </table>
+  <div>
+    <p class="EspacioMuerto">Características físicas</p>
+  </div>
+  <swiper-container class="ContainerPartes" style="--swiper-navigation-color: #ff0000; --swiper-pagination-color: #fff" class="mySwiper"
+      speed="600" parallax="true" navigation="true" loop="true">
+      <swiper-slide class="SlidePartes">
+        <img class="ImagenPartes" src="https://lpfw.org/wp-content/uploads/2014/12/Pronghorn-Credit-USFWS-1024x670.jpg" />
+        <div class="title" data-swiper-parallax="-300">Tamaño y peso</div>
+        <div class="subtitle" data-swiper-parallax="-200">Los berrendos tienen una altura de entre 80 y 100 cm y un peso entre 35 y 70 kg.</div>
+      </swiper-slide>
+      <swiper-slide class="SlidePartes">
+        <img class="ImagenPartes" src="https://images.squarespace-cdn.com/content/v1/5eacfbcb226dc82fa32ebc80/326f6b53-7db8-4007-9934-df8d54b2fdeb/berrendo-peninsular-animal-endemico-Baja-California-Antilocapra-americana.jpg">
+        <div class="title" data-swiper-parallax="-300">Pelaje</div>
+        <div class="subtitle" data-swiper-parallax="-200">Su pelaje es corto y denso, con colores que van del café claro al rojo en el dorso, mientras que el vientre y partes de la cabeza son blancos.</div>
+      </swiper-slide>
+      <swiper-slide class="SlidePartes">
+        <img class="ImagenPartes" src="https://s3.animalia.bio/animals/photos/full/original/pronghorn-buck-15574681907jpg.webp">
+        <div class="title" data-swiper-parallax="-300">Cuernos</div>
+        <div class="subtitle" data-swiper-parallax="-200">Tanto los machos como las hembras poseen cuernos. Los de los machos son más grandes y pueden alcanzar hasta 30 cm, mientras que los de las hembras son pequeños y menos prominentes.</div>
+      </swiper-slide>
+      <swiper-slide class="SlidePartes">
+        <img class="ImagenPartes" src="https://images.squarespace-cdn.com/content/v1/5eacfbcb226dc82fa32ebc80/b9bae7a8-574e-4714-a4f1-1ba6a2d87e24/berrendo-peninsular-Baja-California-Antilocapra-americana-peninsularis.jpg">
+        <div class="title" data-swiper-parallax="-300">Ojos</div>
+        <div class="subtitle" data-swiper-parallax="-200">Poseen una vista excepcional gracias a sus grandes ojos, que les permiten detectar movimientos a largas distancias.</div>
+      </swiper-slide>
+    </swiper-container>
+    <div>
+      <p class="EspacioMuerto">Depredadores</p>
+    </div>
+  
+  <table width="99%" height="50%">
+    <tr >
+      <td width="50%">
+        <div class="SliderDepredador">
+          <ul class="DepredadorUl">
+            <li class="DepredadorLi">
+              <img class="ImagenDepredador" src="https://inaturalist-open-data.s3.amazonaws.com/photos/338304/medium.jpg" alt="Coyotes (Canis latrans)">
+              <div class="NombreDepredador">
+                <p>Coyotes (Canis latrans)</p>
+              </div>          
+            </li>
+            <li class="DepredadorLi">
+              <img class="ImagenDepredador" src="https://inaturalist-open-data.s3.amazonaws.com/photos/30006597/large.jpeg" alt="Coyotes (Canis latrans)">
+              <div class="NombreDepredador">
+                <p>Coyotes (Canis latrans)</p>
+              </div>  
+            </li>
+            <li class="DepredadorLi">
+              <img class="ImagenDepredador" src="https://inaturalist-open-data.s3.amazonaws.com/photos/253372425/original.jpg" alt="Coyotes (Canis latrans)">
+              <div class="NombreDepredador">
+                <p>Coyotes (Canis latrans)</p>
+              </div>  
+            </li>
+          </ul>
+        </div>
+      </td>
+      <td width="50%">
+        <div class="SliderDepredador">
+          <ul class="DepredadorUl">
+            <li class="DepredadorLi">
+              <img class="ImagenDepredador" src="https://www.pactoglobal-colombia.org/images/jch-optimize/ng/images_NoticiasHome_2024_por__que__esta__el__puma__en__peligro__de__extincion__3996__orig__2ac3a.webp" alt="Pumas (Puma concolor)">
+              <div class="NombreDepredador">
+                <p>Pumas (Puma concolor)</p>
+              </div>          
+            </li>
+            <li class="DepredadorLi">
+              <img class="ImagenDepredador" src="https://www.mexicodesconocido.com.mx/wp-content/uploads/2022/08/4-6.jpg" alt="Pumas (Puma concolor)">
+              <div class="NombreDepredador">
+                <p>Pumas (Puma concolor)</p>
+              </div>  
+            </li>
+            <li class="DepredadorLi">
+              <img class="ImagenDepredador" src="https://lh6.googleusercontent.com/proxy/iZgj1g22SHsnlHLbKZQBTkPVRsTV0iByfIY11Io7yM7jc2cg4Ruckpb6TWRMbgp1h1JCyuN4Dad3KNkZEcCrOkpnvwA" alt="Pumas (Puma concolor)">
+              <div class="NombreDepredador">
+                <p>Pumas (Puma concolor)</p>
+              </div>  
+            </li>
+          </ul>
+        </div>
+      </td>
+      <td width="33%">
+      </td>
+    </tr>
+  </table>
+  <div>
+    <p class="EspacioMuerto">Amenazas</p>
+  </div>
+  <table width="99%" height="50%">
+    <tr >
+      <td width="33%">
+        <div class="Amenazas">
+        <figure class="AmenazasFigure">
+          <img src="https://smhsafaris.com/wp-content/uploads/2022/08/PRINCIPAL-BERRENDO.jpg" alt="CazaBerrendo">
+          <div class="Capa">
+            <h3>
+              Caza
+            </h3>
+            <p>
+              Aunque es ilegal, sigue siendo un problema en ciertas regiones.
+            </p>
+          </div>
+        </figure>
+        </div>
+      </td>
+      <td width="33%">
+        <div class="Amenazas">
+          <figure class="AmenazasFigure">
+            <img src="https://igualdadanimal.mx/app/uploads/2020/09/blog-ganaderia-destruyendo-biodiversidad-america-latina-mx.jpg" alt="CazaBerrendo">
+            <div class="Capa">
+              <h3>
+                Pérdida de hábitat
+              </h3>
+              <p>
+                Debido a la ganadería y el desarrollo urbano
+              </p>
+            </div>
+          </figure>
+          </div>
+      </td>
+      <td width="33%">
+        <div class="Amenazas">
+          <figure class="AmenazasFigure">
+            <img src="https://cloudfront-us-east-1.images.arcpublishing.com/semana/WUXXRIIITVBILEZOGN2YVBVYNM.jpg" alt="CazaBerrendo">
+            <div class="Capa">
+              <h3>
+                Infraestructura
+              </h3>
+              <p>
+                Las carreteras destruyen su hábitat, dificultando sus movimientos y reduciendo su acceso a recursos vitales
+              </p>
+            </div>
+          </figure>
+          </div>
+      </td>
+    </tr>
+  </table>
+  
+  
+  <div>
+    <p class="EspacioMuerto">Importancia Ecologica</p>
+  </div>
+  <div class="conteiner">
+    <div class="grid-container">
+        <div class="card">
+            <div class="card-header">
+                <img class="mundo" src="images/planting.png" alt="">
+            </div>
+            <div class="card-body">
+                <p><strong>Dispersión de semillas</strong> Su dieta y hábitos migratorios contribuyen a la dispersión de semillas, lo que favorece la regeneración de la vegetación.</p>
+            </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <img class="mundo" src="images/planet.png" alt="">
+          </div>
+          <div class="card-body">
+            <p><strong>Indicador ambiental</strong> La salud de las poblaciones de berrendos refleja el estado de los ecosistemas en los que habitan.</p>
+          </div>
+        </div>
+      </div>
+</div>
+  
+  
+  
+  
+    <div>
+      <p class="EspacioMuerto">Áreas Naturales Protegidas</p>
+    </div> 
+    <table width="100%" height="80%">
+      <tr>
+        <td class="TextoMapsContenedor">
+          @for(location of $locations(); track location) {
+            <div (click)="goToPlace(location, $index)" class="BotonMaps">
+                <dt class="Titulo">{{location.name}}</dt>
+                <dd class="Subtitulo">{{location.description}}</dd>
+            </div>
+          }
+        </td>
+        <td class="BarraContenedor">
+        <input type="range" name="zoom" min="4" max="12" class="barra" [(ngModel)]="zoom"/>
+        </td>
+        <td class="MapaContenedor">
+          <google-map
+          mapId="780ce6f56640bd9"
+          height="100%"
+          width="100%"
+          [zoom]="zoom()"
+          [center]="center">
+          @for (location of $locations(); track location) {
+            <map-advanced-marker 
+            #marker="mapAdvancedMarker"
+            (mapClick)="openInfoWindow(location, marker)"
+            [position]="{lat: location.latitude, lng: location.longitude}" />
+          }
+          <map-info-window></map-info-window>
+          </google-map>
+        </td>
+      </tr>
+    </table>
+</body>
+</html>

@@ -16,7 +16,7 @@
       <div class="d-flex" id="navbarColor01">
         <ul class="navbar-nav me-auto">
           <li class="nav-item me-4">
-            <a class="nav-link active" href="/home" style="font-size: 15px;">Home
+            <a class="nav-link active" style="font-size: 15px;">Home
               <span class="visually-hidden">(current)</span>
             </a>
           </li>
@@ -42,11 +42,11 @@
          <source src="videos/video.mp4">
        </video>
        <div class="text-overlay">
-        <button id="boton1" type="button" class="btn btn-info">Saber más</button>
+        <button id="boton1" type="button" class="btn btn-info" (click)="scrollToSection()">Saber más</button>
        </div>
     </div>
   </div>
-  <div class="container p-5">
+  <div #ecologia class="container p-5">
     <div class="card text-white bg-primary mb-3" style="max-width: 70rem;">
       <div class="card-header">Ecología</div>
       <div class="card-body">
@@ -94,7 +94,24 @@
       </div>
     </div>
   </div>
-  
+  <h1 class="article-title text-center" style="margin-top: 80px;"><strong>Animales</strong></h1>
+  <div class="conteiner-animals">
+    <button class="images" (click)="onButtonClick('/berrendo')">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Antilocapra_americana.jpg" alt="">
+      <div class="image-text">Berrendo</div>
+    </button>
+    <button class="images" (click)="onButtonClick('/borrego')">
+      <img src="https://cienciauanl.uanl.mx/wp-content/uploads/2015/06/borregocimarrontw.jpg" alt="">
+      <div class="image-text">Borrego</div>
+    </button>
+    <button class="images" (click)="onButtonClick('/venado')">
+      <img src="https://cdn0.bioenciclopedia.com/es/posts/6/0/1/ciervo_cola_blanca_106_600.webp" alt="">
+      <div class="image-text">Venado</div>
+    </button>
+  </div>
+  <footer>
+    <p>Miguel Herrera y Diego Pedraza Copyright 2023 S.A de C.V</p>
+  </footer>
 </body>
 </html>
 

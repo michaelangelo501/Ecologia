@@ -1,0 +1,309 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  /* Dos columnas de tamaño igual */
+    gap: 260px;  /* Espaciado entre las cartas */
+    justify-items: center; /* Centra las cartas dentro de la grilla */
+    margin-top: 30px;
+}
+
+.conteiner {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;  /* Controla el ancho máximo del contenedor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Asegura que el contenido esté centrado en columnas */
+    gap: 10px; /* Espaciado entre cada conjunto de cartas */
+}
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;  /* Ajusta la altura para que las cartas se mantengan del mismo tamaño */
+    max-width: 400px;  /* Tamaño máximo de las cartas */
+    transition: transform 0.3s ease;  /* Efecto de transformación al pasar el cursor */
+    text-align: center;  /* Centra el texto dentro de las cartas */
+}
+.card:hover {
+    transform: scale(1.05);
+  }
+.card h2 {
+    color: #2c7f91;
+    margin-bottom: 10px;
+  }
+  .card p {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+
+.card-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.mundo {
+    width: 250px;  /* Ajusta el tamaño de la imagen */
+    height: auto;
+}
+
+.card-body {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.Titulo
+{
+    font-size: 35px;
+}
+.Subtitulo
+{
+    font-size: 30px;
+}
+.FotoContenedor
+{
+    width: 50%;
+    height: 100%;
+}
+.FotoTitulo
+{
+    text-align: center;    
+    place-content: center;
+}
+
+.FotoSubtitulo
+{
+    text-align: center;    
+    place-content: center;
+}
+.Foto
+{
+    width: 80%;
+    height: 40%;
+    display: block; 
+    margin: 0 auto;
+}
+.barra
+{
+    height: 80%;
+    writing-mode: vertical-lr;
+    text-align: center;    
+    place-content: center;
+    
+}
+.MapaContenedor
+{
+    Width:50%;
+    height:40%; 
+}
+.barraContenedor
+{
+    width: 1%;
+}
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+table
+{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    padding: 0;
+    margin: 0;
+}
+.BotonMaps
+{
+    height: 20%;
+    width: 95%;
+    cursor: pointer;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    margin: 5% 3% ;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+    text-align: center;    
+    place-content: center;
+}
+
+swiper-container {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    width: 70%;
+    height: 80%;
+    background: #000;
+  }
+
+  swiper-slide {
+
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+  }
+
+  swiper-slide .title {
+    margin-top: 0%;
+    font-size: 50px;
+    font-weight: 300;
+    color: #fff;
+  }
+
+  swiper-slide .subtitle {
+    font-size: 200%;
+    color: #ffffff;
+  }
+
+.ImagenPartes{
+    width: 100%;
+    height: 100%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }
+  .EspacioMuerto
+  {
+    margin-top: 10px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    text-align: center;    
+    place-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 5px 6px rgb(93, 75, 20);
+  }
+
+.SliderDepredador
+{
+  width: 100%;
+  height: 40%;
+  margin: 50px auto;
+  overflow: hidden;
+}
+.DepredadorUl{
+  display: flex;
+  padding: 0;
+  width: 300%;
+  animation: slide 5s infinite alternate ease-in-out;
+}
+.DepredadorLi
+{
+  width: 100%;
+  list-style: none;
+  position: relative;
+}
+.NombreDepredador
+{
+  position: absolute;
+  text-align: center;
+  padding: 0 10% ;
+  top: 8%;
+  color:#fff;
+  font-size: 40px;
+}
+.ImagenDepredador
+{
+  width: 100%;
+  height: 600px;
+}
+
+@keyframes slide {
+  0% {margin-left: 0;}
+  33% {margin-left: 0;}
+
+
+  35% {margin-left: -100%;}
+  66% {margin-left: -100%;}
+
+  70% {margin-left: -200%;}
+  100% {margin-left: -200%;}
+}
+
+.Amenazas
+{
+  width: 500px;
+  display: flex;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 70px;
+  
+
+}
+.AmenazasFigure{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0px 1px 10px;
+  cursor: pointer;
+
+
+}
+.AmenazasFigure img{
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+}
+.Capa
+{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(6, 255, 77, 0.307);
+  opacity: 0;
+  transition: all 500ms ease-out;
+  visibility: hidden;
+  text-align: center;
+}
+.AmenazasFigure:hover > .Capa
+{
+  opacity: 1;
+  visibility: visible;
+}
+.AmenazasFigure:hover > .Capa h3
+{
+  margin-top: 35%;
+  margin-bottom: 00%;
+}
+.AmenazasFigure:hover > img
+{
+  transform: scale(1.3);
+}
+.AmenazasFigure .Capa h3
+{
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 0;
+  transition: all 500ms ease-out;
+  margin-top: 20px;
+}
+.AmenazasFigure .Capa p
+{
+  color: #fff;
+  font-size: 25px;
+  line-height: 1.5;
+  width: 100%;
+  transition: all 500ms ease-out;
+  margin-top: 20px;
+}
+
+

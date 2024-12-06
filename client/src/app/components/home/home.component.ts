@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 
@@ -9,5 +10,17 @@ import { Component } from '@angular/core';
 })
 
 export class HomeComponent {
+
+  constructor (private router:Router){}
+
+  @ViewChild('ecologia', { static: false }) aboutSection!: ElementRef;
+
+  scrollToSection(): void {
+    this.aboutSection.nativeElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  onButtonClick(route:string):void{
+    this.router.navigate([route]);
+  }
 
 }
